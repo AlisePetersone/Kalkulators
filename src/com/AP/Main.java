@@ -10,12 +10,12 @@ public class Main {
 
         //1. skaitlis
 
-        out.println("Ievadiet 1. skaitli:");
+        out.println("1.skaitlis:");
 //        out.println("");
         int x = scanner.nextInt();
 
         //darbība
-        out.println("Ievadiet darbību:");
+        out.println("darbība:");
 //        out.println("");
         String oper;
         scanner.nextLine();//nepieciešams,jo nextint nolasa string automātiski, bez ievades iespējas.
@@ -23,7 +23,7 @@ public class Main {
 
 
         //2. skaitlis
-        out.println("Ievadiet 2. skaitli:");
+        out.println("2.skaitlis:");
 
 //        System.out.println("");
         int y = scanner.nextInt();

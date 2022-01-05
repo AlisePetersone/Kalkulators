@@ -11,12 +11,12 @@ public class Main {
         //1. skaitlis
 
         out.println("Ievadiet 1. skaitli:");
-        out.println("");
-        int num1 = scanner.nextInt();
+//        out.println("");
+        int x = scanner.nextInt();
 
         //darbība
         out.println("Ievadiet darbību:");
-        out.println("");
+//        out.println("");
         String oper;
         scanner.nextLine();//nepieciešams,jo nextint nolasa string automātiski, bez ievades iespējas.
         oper = scanner.nextLine();
@@ -26,15 +26,15 @@ public class Main {
         out.println("Ievadiet 2. skaitli:");
 
 //        System.out.println("");
-        int num2 = scanner.nextInt();
+        int y = scanner.nextInt();
 
 
 
         out.println("Rezultāts:");
-        if(oper.equals("+")) out.println(num1 + num2);
-        if(oper.equals("-")) out.println(num1 - num2);
-        if(oper.equals("*")) out.println(num1 * num2);
-        if(oper.equals("/")) out.println(num1 / num2);
+        if(oper.equals("+")) out.println(x + y);
+        if(oper.equals("-")) out.println(x - y);
+        if(oper.equals("*")) out.println(x * y);
+        if(oper.equals("/")) out.println(x / y);
 
     }
 }

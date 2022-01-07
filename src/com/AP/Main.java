@@ -7,10 +7,10 @@ public class Main {
 
         //1. skaitlis
         out.println("1. skaitlis:");
-        while (!sc.hasNextInt()) {
+        while (!sc.hasNextFloat()) {
             out.println("SKAITLI!!!:");
             sc.next();}
-        int x = sc.nextInt();
+        float x = sc.nextFloat();
 
         //darbība
         boolean darbiba = true;
@@ -25,11 +25,11 @@ public class Main {
         }
         //2. skaitlis
         out.println("2. skaitlis:");
-        while (!sc.hasNextInt()) {
+        while (!sc.hasNextFloat()) {
             out.println("Veselu skaitli!!!:");
             sc.next();
         }
-        int y = sc.nextInt();
+        float y = sc.nextInt();
 
         out.println("Rezultāts:");
         switch (oper) {
